@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aula de formulário HTML</title>
+</head>
+<body>
+    <h1>Preencha o formulário abaixo</h1>
+
+    <br>
+    <form action="#" method="post">
+        <label for="lnome">Nome:</label>
+        <input type="text" name="nome">
+        <br>
+        Senha:<br>
+        <input type="password" name="senha">
+
+        <br>
+        Conhece o curso:<br>
+        <input type="radio" name="opcao" value="s">Sim<br>
+        <input type="radio" name="opcao" value="n">Não<br>
+        <input type="radio" name="opcao" value="t">Talvez<br>
+        <input type="radio" name="opcao" value="se">sei não...<br>
+        <br>
+        <br>
+        Qual seu estilo musical favorito:<br>
+        <input type="checkbox" name="musica" value="rock">Rock
+        <br>
+        <input type="checkbox" name="musica" value="blues">Blues<br>
+        <br>
+        Sexo:<br>
+        <select name="selecao" size="2">
+            <option value="m">Masculino</option>
+            <option value="f">Femino</option>
+        </select>
+        <br>
+        <br>
+        
+        Comentário: <br>
+        <textarea name="comentario" rows="4" cols="10">
+        </textarea>
+
+        <br>
+        <br>
+
+        <input list="disciplinas" name="disciplinas">
+        <datalist>
+            <option value="Programação">Programação</option>
+            <option value="Banco de dados">Banco de Dados</option>
+        </datalist>
+
+
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
